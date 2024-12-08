@@ -3,17 +3,19 @@ public class Gladiator {
     private int level = 1;
     int lifePoints;
     int strength;
-    int agility;
+    int agilty;
+    int defence;
     boolean extraAttack;
     int gold;
     Weapon weapon;
     Armor armor;
 
-    public Gladiator(String name, int lifePoints, int strength, int agility, int gold, Weapon weapon, Armor armor) {
+    public Gladiator(String name, int lifePoints, int strength,int defence, int agility, int gold, Weapon weapon, Armor armor) {
         this.name = name;
         this.lifePoints = lifePoints;
         this.strength = strength;
-        this.agility = agility;
+        this.agilty = agilty;
+        this.defence = defence;
         this.gold = gold;
         this.weapon = weapon;
         this.armor = armor;
