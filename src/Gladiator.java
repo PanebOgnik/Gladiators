@@ -10,7 +10,7 @@ public class Gladiator {
     Weapon weapon;
     Armor armor;
 
-    public Gladiator(String name, int lifePoints, int strength,int defence, int agility, int gold, Weapon weapon, Armor armor) {
+    public Gladiator(String name, int lifePoints, int strength,int defence, int agilty, int gold, Weapon weapon, Armor armor) {
         this.name = name;
         this.lifePoints = lifePoints;
         this.strength = strength;
